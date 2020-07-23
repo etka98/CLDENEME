@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/first"
+        android:layout_width="137dp"
+        android:layout_height="180dp"
+        android:background="#0652DD"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/second"
+        android:layout_width="137dp"
+        android:layout_height="180dp"
+        android:background="#fff200"
+        app:layout_constraintLeft_toRightOf="@id/first"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/third"
+        android:layout_width="137dp"
+        android:layout_height="180dp"
+        android:background="#0652DD"
+        app:layout_constraintLeft_toRightOf="@id/second"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/fourth"
+        android:layout_width="137dp"
+        android:layout_height="180dp"
+        android:background="#fff200"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/first" />
+
+    <View
+        android:id="@+id/fifth"
+        android:layout_width="137dp"
+        android:layout_height="180dp"
+        android:background="#0652DD"
+        app:layout_constraintLeft_toRightOf="@id/fourth"
+        app:layout_constraintTop_toBottomOf="@id/second" />
+
+    <View
+        android:id="@+id/sixth"
+        android:layout_width="137dp"
+        android:layout_height="180dp"
+        android:background="#fff200"
+        app:layout_constraintLeft_toRightOf="@id/fifth"
+        app:layout_constraintTop_toBottomOf="@id/third" />
+    <View
+        android:id="@+id/seven"
+        android:layout_width="137dp"
+        android:layout_height="180dp"
+        android:background="#0652DD"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fourth" />
+
+    <View
+        android:id="@+id/eigth"
+        android:layout_width="137dp"
+        android:layout_height="180dp"
+        android:background="#fff200"
+        app:layout_constraintLeft_toRightOf="@id/seven"
+        app:layout_constraintTop_toBottomOf="@id/fifth" />
+
+    <View
+        android:id="@+id/nine"
+        android:layout_width="137dp"
+        android:layout_height="180dp"
+        android:background="#0652DD"
+        app:layout_constraintLeft_toRightOf="@id/eigth"
+        app:layout_constraintTop_toBottomOf="@id/sixth" />
+
+    <View
+        android:id="@+id/ten"
+        android:layout_width="137dp"
+        android:layout_height="180dp"
+        android:background="#fff200"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/seven" />
+
+    <View
+        android:id="@+id/eleven"
+        android:layout_width="137dp"
+        android:layout_height="180dp"
+        android:background="#0652DD"
+        app:layout_constraintLeft_toRightOf="@id/ten"
+        app:layout_constraintTop_toBottomOf="@id/eigth" />
+
+    <View
+        android:id="@+id/twelf"
+        android:layout_width="137dp"
+        android:layout_height="180dp"
+        android:background="#fff200"
+        app:layout_constraintLeft_toRightOf="@id/eleven"
+        app:layout_constraintTop_toBottomOf="@id/nine" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
